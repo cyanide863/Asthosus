@@ -53,6 +53,37 @@ weapons: [
     shootCone: 360
     shake: 1
     bullet: {
+      shootEffect: [
+      {
+        type: ParticleEffect
+        particles: 6
+        length: 12
+        baseLength: 4
+        line: true
+        lifetime: 35
+        interp: circleOut
+        strokeFrom: 4
+        strokeTo: 0
+        lenFrom: 7
+        lenTo: 3
+        cone: 30
+        colorFrom: edc66c
+        colorTo: baa164
+      }
+      {
+        type: ParticleEffect
+        particles: 6
+        length: 12
+        baseLength: 4
+        lifetime: 35
+        interp: fastSlow
+        sizeFrom: 3
+        sizeTo: 0
+        cone: 30
+        colorFrom: edc66c
+        colorTo: baa164
+      }
+      ]
       type: ExplosionBulletType
       splashDamage: 60
       splashDamageRadius: 32
