@@ -13,7 +13,11 @@ autoFindTarget: false
 homingDelay: 0
 circleTarget: false
 faceTarget: true
-trailColor: 7a7564
+engineColor: edc66c
+engineSize: 1.5
+engineOffset: 3
+trailColor: edc66c
+trailLength: 5
 aimDst: 4
 drawCell: false
 abilities: [
