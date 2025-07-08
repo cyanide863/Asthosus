@@ -22,16 +22,20 @@ abilities: [
     interval: 4
     effect: {
       type: ParticleEffect
-      particles: 12
+      particles: 6
       length: 3.2
       baseLength: 4
       line: true
       strokeFrom: 2.2
       strokeTo: 1.6
+      lenFrom: 5
+      lenTo: 3
+      cone: 30
       colorFrom: edc66c
       colorTo: baa164
     }
     rotateEffect: true
+    rotation: 180
   }
 ]
 outlines: false
